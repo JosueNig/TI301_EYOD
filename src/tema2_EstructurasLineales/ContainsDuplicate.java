@@ -1,6 +1,7 @@
 package tema2_EstructurasLineales;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /*
 *ITESS-TICS 2025 Estructura y Organización de Datos
@@ -17,10 +18,10 @@ public class ContainsDuplicate {
     public static void main(String[] args) {
         //datos
         int n =10;//cantidad de numeros
-        int N=10;//rango de numeros de 0-1
-        List<Integer> nums = generateNums(10,10);
+        int N=100;//rango de numeros de 0-1
+        List<Integer> nums = generateNums(n,N);
         print(nums);
-        System.out.println("containsDuplicate" + containsDuplicate(nums) );
+        System.out.println("containsDuplicate  " + containsDuplicate(nums) );
         //algoritmo para resolver
     }
     public static void print(List<Integer> nums){
@@ -38,7 +39,7 @@ public class ContainsDuplicate {
     public static boolean containsDuplicate(List<Integer> nums){
         for (int i = 0; i < nums.size()-1; i++) {
             for (int j = i+1; j < nums.size(); j++) {
-                if(nums.get(i) == nums.get(j))
+                if(Objects.equals(nums.get(i), nums.get(j)))
                     return true;
                 }
             }
