@@ -11,6 +11,7 @@ package Tema3EstructurasNoLineales.recursividad;
  */
 public class reverseArrayTest {
     public static void main(String[] args) {
+        System.out.println("Nigoa Nieto Josue Trinidad");
     int [] array1 = {21,3,4,5,3};
     int [] array2 = {2,5,6};
     int [] array3 = {1,2,3,4,5,6};

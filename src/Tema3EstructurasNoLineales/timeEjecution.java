@@ -20,7 +20,7 @@ public class timeEjecution {
         }
         long fin = System.nanoTime();
         long duracionN = fin - inicio;
-        double duracionS = duracionN / 1_000_000_000.0;
+        double duracionS = duracionN / 1000000000.0;
         System.out.println("Duracion en nanosegundos : " + duracionN);
         System.out.println("Duracion en segundos : " + duracionS);
 

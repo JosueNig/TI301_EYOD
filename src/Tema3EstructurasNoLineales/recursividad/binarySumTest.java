@@ -13,6 +13,7 @@ binaria.
  */
 public class binarySumTest {
     public static void main(String[] args) {
+        System.out.println("Nigoa Nieto Josue Trinidad");
         int [] array1 = {12 ,25,23,33,55,78};
         int [] array2 = {1,2,3,4,5};
         int [] array3 = {6,7,8,9,3,2};

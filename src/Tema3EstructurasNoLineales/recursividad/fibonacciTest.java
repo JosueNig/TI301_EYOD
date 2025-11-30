@@ -13,7 +13,7 @@ package Tema3EstructurasNoLineales.recursividad;
 
 public class fibonacciTest {
     public static void main(String[] args) {
-
+        System.out.println("Nigoa Nieto Josue Trinidad");
         System.out.println(fibonacci.fibonacciBad(3));
         System.out.println( fibonacci.fibonacciGood(3)[0] ); 
         System.out.println(fibonacci.fibonacciBad(5));

@@ -1,5 +1,6 @@
 package Tema3EstructurasNoLineales.recursividad;
- /*
+
+/*
 *ITESS-TICS 20225 Estructura y Organización de Datos
 *Agosto Dicimebre 2025
 *Docente:Francisco Javier Montecillo Puente
@@ -12,21 +13,25 @@ uno mas eficiente que el otro
  */
 public class potencias {
 
-    public static double powerB (double x , int n){
-     if(n==0)
-         return 1;
-     else 
-         return x * powerB(x,n-1);
+    public static double powerB(double x, int n) {
+        if (n == 0) {
+            return 1;
+        } else {
+            return x * powerB(x, n - 1);
+        }
+        
+
     }
-    public static double powerG (double x , int n){
-     if(n==0)
-         return 1;
-     else {
-         double partial = powerG (x,n/2);
-         double result = partial * partial;
-         if (n % 2 == 1)
-             result*=x;
-         return result;
-     }       
+
+    public static double powerG(double x, int n) {
+        if (n == 0) 
+            return 1;
+        else {
+            double partial = powerG(x, n / 2);
+            double result = partial * partial;
+            if (n % 2 == 1) 
+                result *= x;
+                return result;           
+        }
     }
 }

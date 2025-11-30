@@ -13,11 +13,13 @@ package Tema3EstructurasNoLineales.recursividad;
  */
 public class recursionSumaTest {
     public static void main(String[] args) {
+        System.out.println("Nigoa Nieto Josue Trinidad");
 int resultado1 = recursionSuma.lineaSuma(new int []{3,4,3}, 3);
         System.out.println(resultado1);
 int resultado2 = recursionSuma.lineaSuma(new int []{100,400,300}, 3);
         System.out.println(resultado2);
 int resultado3 = recursionSuma.lineaSuma(new int []{3,4}, 2);
-        System.out.println(resultado3);        
+        System.out.println(resultado3); 
+        
     }
 }
