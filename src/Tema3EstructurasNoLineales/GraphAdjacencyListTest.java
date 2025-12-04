@@ -1,5 +1,7 @@
 package Tema3EstructurasNoLineales;
 
+import Tema3EstructurasNoLineales.GraphAdjacencyList;
+
  /*
 *ITESS-TICS 20225 Estructura y Organización de Datos
 *Agosto Dicimebre 2025
