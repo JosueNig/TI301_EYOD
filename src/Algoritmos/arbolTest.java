@@ -34,22 +34,22 @@ public class arbolTest {
         List<Nodo> resultado = new ArrayList<>();
         System.out.println("Metodo BFS");
         arbol.breadFirst(raiz, resultado);
-        Arbol.imprimirLista(resultado);
+        Arbol.print(resultado);
         resultado.clear();
 
         System.out.println(" Metodo PREORDER ");
         arbol.preorder(raiz, resultado);
-        Arbol.imprimirLista(resultado);
+        Arbol.print(resultado);
         resultado.clear();
 
         System.out.println(" Metodo POSTORDER");
         arbol.postorder(raiz, resultado);
-        Arbol.imprimirLista(resultado);
+        Arbol.print(resultado);
         resultado.clear();
 
         System.out.println(" Metodo INORDER ");
         arbol.inorder(raiz, resultado);
-        Arbol.imprimirLista(resultado);
+        Arbol.print(resultado);
         resultado.clear();
 
         System.out.println(" Metodo HEIGHT ");

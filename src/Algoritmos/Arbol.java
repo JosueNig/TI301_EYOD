@@ -90,7 +90,7 @@ public class Arbol {
         }
     }
 
-    public static void imprimirLista(List<Nodo> lista) {
+    public static void print(List<Nodo> lista) {
         for (Nodo n : lista) {
             System.out.print(n.getValue() + " -> ");
         }
