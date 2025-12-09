@@ -1,18 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package tema4_Ordenamiento;
 
 import java.util.Random;
 
-/**
- *
- * @author josue
+ /*
+*ITESS-TICS 20225 Estructura y Organización de Datos
+*Agosto Dicimebre 2025
+*Docente:Francisco Javier Montecillo Puente
+*Descripción:Unidad 4 Ordenamiento 
+*objetivo: Implementar el algoritmo burbuja para ordenar n datos
+*Programador: Josué Trinidad Nigoa Nieto
+*Fecha:09/12/2025
  */
 public class burbuja {
 
-    // --- 1. EL ALGORITMO (MÉTODO APARTE) ---
     public void ordenarBurbuja(int[] arreglo) {
         int n = arreglo.length;
         boolean intercambiado;
@@ -22,7 +23,6 @@ public class burbuja {
 
             for (int j = 0; j < n - i - 1; j++) {
                 if (arreglo[j] > arreglo[j + 1]) {
-                    // Intercambio (Swap)
                     int temp = arreglo[j];
                     arreglo[j] = arreglo[j + 1];
                     arreglo[j + 1] = temp;
@@ -30,7 +30,6 @@ public class burbuja {
                 }
             }
 
-            // Si en una pasada no hubo intercambios, el arreglo ya está ordenado
             if (!intercambiado) {
                 break;
             }
