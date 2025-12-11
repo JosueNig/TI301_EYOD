@@ -7,7 +7,7 @@ Repositorio de la cuarta unidad
 **Grupo:** TI-301
 
 <div align="center">
-  <img src= 
+  <img src= https://github.com/JosueNig/TI301_EYOD/blob/master/src/tema4_Ordenamiento/images.jpg>
 </div>
 
 ### Algoritmos Implementados:
